@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Usage guide (English)
+    url: https://github.com/neeM4c/qwenwork-rtl/blob/main/docs/USAGE.md
+    about: Install, restore, CLI reference and troubleshooting.
+  - name: راهنمای استفاده (فارسی)
+    url: https://github.com/neeM4c/qwenwork-rtl/blob/main/docs/USAGE.fa.md
+    about: نصب، حذف، مرجع دستورها و رفع اشکال.

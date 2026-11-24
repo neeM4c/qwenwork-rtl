@@ -1,0 +1,15 @@
+# normalise line endings so the repo behaves the same on every machine
+* text=auto
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary
+*.zip binary

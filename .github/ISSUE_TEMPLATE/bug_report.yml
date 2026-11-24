@@ -1,0 +1,53 @@
+name: Bug report
+description: Something renders wrong, or the patch fails to apply.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Two details make fixes much faster: the `--status` output and a screenshot.
+
+  - type: textarea
+    id: status
+    attributes:
+      label: Output of --status
+      description: Run `python qwenwork_rtl.py --status` and paste everything it prints.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Windows version and QwenWork version (see `C:\Program Files\QwenWork\updater.cfg`).
+      placeholder: "Windows 11 24H2 / QwenWork 2.0.0-26111901"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: What you expected, what you got, and the exact command you ran.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Drag an image here. Blur anything private — the layout is what matters.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I restarted QwenWork after patching (or pressed Ctrl+R).
+          required: true
+        - label: I searched existing issues first.
+          required: true

@@ -1,0 +1,20 @@
+name: Feature request
+description: A panel that is still left-aligned, or something else you would like to see.
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the panel or behaviour. A screenshot of the element is perfect.
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra context
+      description: If it is a panel that stays left-aligned, the `data-slot` attribute or CSS class helps a lot.
+    validations:
+      required: false
