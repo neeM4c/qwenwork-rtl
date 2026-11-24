@@ -2,6 +2,8 @@
 
 <img src="docs/preview.png" alt="QwenWork with Persian right-to-left text and the Vazirmatn font" width="880">
 
+<sub><i>Illustration of the patched interface: RTL layout, Vazirmatn, LTR code block.</i></sub>
+
 # QwenWork RTL + Vazirmatn
 
 **Persian (RTL) chat text and the Vazirmatn font for QwenWork — and it keeps working after app updates.**
